@@ -1,9 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
 import { main_logo } from "../exportImages/export";
 
 const LegacyComponent = () => {
+
+
+  // State to toggle the sidebar
+  const [isSidebarOpen, setSidebarOpen] = useState(false);
+
+  // Function to toggle sidebar
+  const toggleSidebar = () => {
+    setSidebarOpen(!isSidebarOpen);
+  };
+
+
   return (
-    <div className="relative w-full  min-h-screen overflow-hidden flex flex-col justify-center items-center bg-[#e8e4df]">
+    <div className="relative w-full  min-h-screen  overflow-hidden flex flex-col justify-center items-center bg-[#e8e4df] pb-20 ">
       {/* Logo Section */}
       <div className="absolute top-5 left-5 flex items-center space-x-2">
         <img src={main_logo} alt="Trident Logo" className="w-[60px] h-[48px] object-cover" />
@@ -13,7 +24,7 @@ const LegacyComponent = () => {
       </div>
 
       {/* Hamburger Menu */}
-      <div className="absolute top-5 right-5">
+      <div className="absolute top-5 right-5" onClick={toggleSidebar}>
         <div className="space-y-1">
           <div className="w-[40px] h-[1px] bg-black"></div>
           <div className="w-[40px] h-[1px] bg-black"></div>
@@ -21,9 +32,24 @@ const LegacyComponent = () => {
         </div>
       </div>
 
+
+       {/* Sidebar */}
+      <div className={`fixed right-0 top-10 w-[250px] h-full bg-white shadow-lg z-50 transition-transform transform ${isSidebarOpen ? "translate-x-0" : "translate-x-full"}`}>
+        <div className="p-5">
+          <h2 className="font-bold text-lg">Menu</h2>
+          <ul className="divide-y divide-gray-300">
+            <li className="py-2 text-lg">Amenities</li>
+            <li className="py-2 text-lg">Brochure</li>
+            <li className="py-2 text-lg">Privacy</li>
+          </ul>
+        </div>
+      </div>  
+
+
+
       {/* Main Content */}
-      <div className="text-center px-6 pt-[120px]">
-        <h1 className="text-[60px] md:text-[110px] font-light leading-tight text-[#142933] font-saveya">
+      <div className="text-center md:px-6 px-1  pt-[120px]">
+        <h1 className="text-[45px] md:text-[110px] font-light leading-tight text-[#142933] font-saveya ">
           Let <br />
           <span className="">your legacy</span> <br />
           evolve.

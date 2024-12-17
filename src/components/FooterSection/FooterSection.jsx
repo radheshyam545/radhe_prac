@@ -20,11 +20,11 @@ const HalfWidthSection = () => {
         {/* Left Side: Enquire with Line */}
         <div className="flex items-center space-x-4    md:mb-0">
           {/* Line */}
-          <div className="w-[1px] h-6 bg-gray-400"></div>
+          {/* <div className="w-[1px] h-6 bg-gray-400"></div> */}
           {/* Text */}
-          <p className="text-[24px] hover:text-gray-300 cursor-pointer">
+          {/* <p className="text-[24px] hover:text-gray-300 cursor-pointer">
             Enquire
-          </p>
+          </p> */}
         </div>
 
         {/* Right Side: Amenities, Press, Privacy */}
@@ -71,7 +71,7 @@ const HalfWidthSection = () => {
     <img
       src={footer_logo}
       alt=""
-      className="absolute bottom-4 md:right-[50px] w-[200px] h-[200px] object-contain"
+      className="absolute bottom-4 right-0 md:right-[50px] w-[150px] h-[150px]  md:w-[200px] md:h-[200px] object-contain"
     />
   </div>
 </div>

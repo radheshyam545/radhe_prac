@@ -1,20 +1,22 @@
-import React from 'react'
-import { third_banner } from '../../exportImages/export'
+import React from 'react';
+import { third_banner } from '../../exportImages/export';
 
 const CustomImageComponent = () => {
-
-
   return (
     <div>
-       <div className="w-full h-[400px] md:h-[500px] overflow-hidden">
-              <img
-                src={third_banner}
-                alt="Modern Home Top"
-                className="w-full h-full object-cover"
-              />
-            </div>
+      <div style={{
+          // Using inline styles to create the parallax effect
+          backgroundAttachment: 'fixed',
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat',
+          backgroundImage: `url(${third_banner})`,
+          height: '500px',
+          width: '100%',
+          backgroundSize: 'cover'
+        }}>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default CustomImageComponent
+export default CustomImageComponent;

@@ -31,7 +31,7 @@ const UncommonOpportunity = () => {
   }, [isFormVisible]);
 
   return (
-    <div className="flex flex-col items-center justify-center h-auto md:h-[600px] bg-[#f4f0eb] text-center px-6 py-10 md:px-16 md:py-16">
+    <div className="flex flex-col items-center justify-center min-h-screen h-auto md:h-[600px] bg-[#f4f0eb] text-center px-6 py-10 md:px-16 md:py-16">
       <h1 className=" sm:text-[4rem] font-saveya text-[#2c3e50] tracking-wide leading-none  text-[60px] md:text-[110px]">
         An
       </h1>
