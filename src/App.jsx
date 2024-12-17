@@ -1,5 +1,5 @@
-import { ParallaxProvider } from "react-scroll-parallax";
-import ParallaxEffect from "./components/parallax/parallax";
+// import { ParallaxProvider } from "react-scroll-parallax";
+// import ParallaxEffect from "./components/parallax/parallax";
 import HomePage from "./home";
 
 export default function App() {
