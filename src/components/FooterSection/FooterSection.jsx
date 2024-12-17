@@ -5,7 +5,7 @@ import AddressCard from "./AddressCard";
 const HalfWidthSection = () => {
   return (
     <div
-      className="bg-[#0A1A2B] text-[#D1D5DB] h-[800px] w-full  bg-no-repeat "
+      className="bg-[#0A1A2B] text-[#D1D5DB] h-[860px] w-full  bg-no-repeat "
       style={{ 
         backgroundImage: `url(${bg_image})`,
         backgroundPosition: "left -100px bottom -150px", // Adjusted position
@@ -16,9 +16,9 @@ const HalfWidthSection = () => {
       {/* <div className="absolute inset-0 bg-[#0A1A2B] opacity-90"></div> */}
         <div className="">
       {/* Content */}
-      <div className="relative  flex items-end justify-between h-[400px]  px-4 md:px-12 text-white font-editorial">
+      <div className="relative  flex items-center justify-between h-[400px] flex-col md:flex-row md:items-end  px-4 md:px-12 text-white font-editorial py-[120px] md:py-10">
         {/* Left Side: Enquire with Line */}
-        <div className="flex items-center space-x-4">
+        <div className="flex items-center space-x-4    md:mb-0">
           {/* Line */}
           <div className="w-[1px] h-6 bg-gray-400"></div>
           {/* Text */}
@@ -28,13 +28,13 @@ const HalfWidthSection = () => {
         </div>
 
         {/* Right Side: Amenities, Press, Privacy */}
-        <div className="flex space-x-8">
+        <div className="flex space-x-8 pr-10">
           <p className="text-[25px] hover:text-gray-300 cursor-pointer">
             Amenities
           </p>
           <p className="text-[25px] hover:text-gray-300 cursor-pointer">
             Press
-          </p>
+          </p>  
           <p className="text-[25px] hover:text-gray-300 cursor-pointer">
             Privacy
           </p>
@@ -45,7 +45,7 @@ const HalfWidthSection = () => {
     <div className="flex h-[370px] relative pt-10  font-editorial">
   {/* Left Column */}
   <div className="w-[50%] flex relative">
-    <div className="border-r border-gray-400 pr-12 h-full"></div>
+    <div className="border-r border-gray-200 pr-12 h-full"></div>
     <div className="px-5  flex flex-col justify-between">
       {/* Address Section */}
       <div className=" ">
@@ -67,15 +67,17 @@ const HalfWidthSection = () => {
   </div>
 
   {/* Right Column */}
-  <div className="w-[50%] relative">
+  <div className="w-[50%] relative ">
     <img
       src={footer_logo}
       alt=""
-      className="absolute bottom-4 right-4 w-[200px] h-[200px] object-contain"
+      className="absolute bottom-4 md:right-[50px] w-[200px] h-[200px] object-contain"
     />
   </div>
 </div>
+     <div className="h-[90px]">
 
+     </div>
     </div>
     </div>
   );
