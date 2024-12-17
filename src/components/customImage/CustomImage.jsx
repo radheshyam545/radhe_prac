@@ -2,6 +2,8 @@ import React from 'react'
 import { third_banner } from '../../exportImages/export'
 
 const CustomImageComponent = () => {
+
+
   return (
     <div>
        <div className="w-full h-[400px] md:h-[500px] overflow-hidden">
