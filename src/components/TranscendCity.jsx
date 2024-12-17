@@ -1,30 +1,110 @@
-import React from "react";
+import React, { useEffect, useRef, useState } from "react";
 
 const TranscendCity = () => {
+  // Create a reference for the elements that need the fade-in effect
+  const textRef1 = useRef(null);
+  const textRef2 = useRef(null);
+  const textRef3 = useRef(null);
+
+  // Set state to track if the elements are in view
+  const [inView1, setInView1] = useState(false);
+  const [inView2, setInView2] = useState(false);
+  const [inView3, setInView3] = useState(false);
+
+  // Create an intersection observer
+  useEffect(() => {
+    const options = {
+      root: null,
+      rootMargin: "0px",
+      threshold: 0.1, // Trigger animation when 10% of the element is visible
+    };
+
+    const observer1 = new IntersectionObserver(
+      (entries) => {
+        if (entries[0].isIntersecting) {
+          setInView1(true);
+        }
+      },
+      options
+    );
+    const observer2 = new IntersectionObserver(
+      (entries) => {
+        if (entries[0].isIntersecting) {
+          setInView2(true);
+        }
+      },
+      options
+    );
+    const observer3 = new IntersectionObserver(
+      (entries) => {
+        if (entries[0].isIntersecting) {
+          setInView3(true);
+        }
+      },
+      options
+    );
+
+    // Observe the elements
+    if (textRef1.current) observer1.observe(textRef1.current);
+    if (textRef2.current) observer2.observe(textRef2.current);
+    if (textRef3.current) observer3.observe(textRef3.current);
+
+    return () => {
+      // Clean up observers on component unmount
+      if (textRef1.current) observer1.disconnect();
+      if (textRef2.current) observer2.disconnect();
+      if (textRef3.current) observer3.disconnect();
+    };
+  }, []);
+
   return (
     <div className="min-h-screen bg-[#0F1C23] text-gray-200 flex items-center justify-center">
       <div className="text-center mx-4">
-        {/* Main Heading */}
-        <h1 className="text-6xl md:text-8xl font-light text-gray-300 leading-tight tracking-wide font-saveya">
+        {/* Main Heading with fade-in effect */}
+        <h1
+          ref={textRef1}
+          className={`text-[60px] md:text-[110px] font-light text-gray-300 leading-tight tracking-wide font-saveya ${
+            inView1 ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
+          } transition-all duration-1000 ease-out`}
+        >
           Transcend
         </h1>
-        {/* Sub-heading */}
-        <h2 className="text-5xl md:text-7xl font-light italic mt-2 text-gray-300 leading-snug font-saveya">
+
+        {/* Sub-heading with fade-in effect */}
+        <h2
+          ref={textRef2}
+          className={`text-[60px] md:text-[110px] font-light mt-2 text-gray-300 leading-snug font-saveya ${
+            inView2 ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
+          } transition-all duration-1000 ease-out`}
+        >
           the city
         </h2>
 
-        {/* Description with max-width */}
-        <div className="mx-auto max-w-lg ">
-          <p className="mt-[50px] text-sm md:text-base leading-relaxed tracking-wide text-gray-400 font-editorial">
-            V-shaped pilots elevate the residences above a beautifully landscaped pedestrian realm, with an expansive Sky Lounge poised above the metropolis below. Here, as night falls, the lights of the Jawaharlal Nehru Stadium shimmer before you, the evening air a heady aperitif before dinner.
+        {/* Description with fade-in effect */}
+        <div className="mx-auto max-w-[490px] text-center">
+          <p
+            ref={textRef3}
+            className={`mt-[50px] text-sm md:text-base leading-relaxed tracking-wide text-gray-400 font-editorial ${
+              inView3 ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
+            } transition-all duration-1000 ease-out`}
+          >
+            V-shaped pilots elevate the residences above a beautifully landscaped
+            pedestrian realm, with an expansive Sky Lounge poised above the
+            metropolis below. Here, as night falls, the lights of the Jawaharlal
+            Nehru Stadium shimmer before you, the evening air a heady aperitif
+            before dinner.
           </p>
-          {/* Bottom Text */}
-        <p className="mt-8 text-sm md:text-base font-light text-gray-400 font-editorial">
-          Just beyond lie the timeless icons of the national capital. This is your vantage point. This is your domain.
-        </p>
-        </div>
 
-        
+          {/* Bottom Text with fade-in effect */}
+          <p
+            className={`mt-8 text-sm md:text-base font-light text-gray-400 font-editorial ${
+              inView3 ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
+            } transition-all duration-1000 ease-out`}
+          >
+            Just beyond lie the timeless icons of the national capital. This is
+            your vantage <br /> point. This is your domain.
+          </p>
+        </div>
       </div>
     </div>
   );

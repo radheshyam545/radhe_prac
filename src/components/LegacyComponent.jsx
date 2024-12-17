@@ -3,7 +3,7 @@ import { main_logo } from "../exportImages/export";
 
 const LegacyComponent = () => {
   return (
-    <div className="relative w-full h-[800px] overflow-hidden flex flex-col justify-center items-center bg-[#f4f0eb]">
+    <div className="relative w-full  min-h-screen overflow-hidden flex flex-col justify-center items-center bg-[#e8e4df]">
       {/* Logo Section */}
       <div className="absolute top-5 left-5 flex items-center space-x-2">
         <img src={main_logo} alt="Trident Logo" className="w-[60px] h-[48px] object-cover" />
@@ -15,17 +15,17 @@ const LegacyComponent = () => {
       {/* Hamburger Menu */}
       <div className="absolute top-5 right-5">
         <div className="space-y-1">
-          <div className="w-6 h-0.5 bg-black"></div>
-          <div className="w-6 h-0.5 bg-black"></div>
-          <div className="w-6 h-0.5 bg-black"></div>
+          <div className="w-[40px] h-[1px] bg-black"></div>
+          <div className="w-[40px] h-[1px] bg-black"></div>
+          <div className="w-[40px] h-[1px] bg-black"></div>
         </div>
       </div>
 
       {/* Main Content */}
-      <div className="text-center px-6">
-        <h1 className="text-[60px] md:text-[90px] font-light leading-tight text-[#28303b] font-saveya">
+      <div className="text-center px-6 pt-[120px]">
+        <h1 className="text-[60px] md:text-[110px] font-light leading-tight text-[#142933] font-saveya">
           Let <br />
-          <span className="italic">your legacy</span> <br />
+          <span className="">your legacy</span> <br />
           evolve.
         </h1>
         <p className="mt-8 text-sm md:text-base text-[#666666] leading-relaxed max-w-[500px] mx-auto font-editorial">
