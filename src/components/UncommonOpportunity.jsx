@@ -31,17 +31,29 @@ const UncommonOpportunity = () => {
   }, [isFormVisible]);
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen h-auto md:h-[600px] bg-[#f4f0eb] text-center px-6 py-10 md:px-16 md:py-16">
-      <h1 className=" sm:text-[4rem] font-saveya text-[#2c3e50] tracking-wide leading-none  text-[60px] md:text-[110px]">
+    <div 
+    className="flex flex-col items-center justify-center min-h-screen h-auto md:h-[600px] bg-[#f4f0eb] text-center px-6 py-10 md:px-16 md:py-16"
+    
+    >
+      <h1 
+      className=" sm:text-[4rem] font-saveya text-[#2c3e50] tracking-wide leading-none  text-[60px] md:text-[110px]"
+      data-aos="fade-down"
+      >
         An
       </h1>
-      <h2 className="text-[3rem] sm:text-[4rem] md:text-[5rem] font-saveya text-[#2c3e50] tracking-wide leading-none">
+      <h2 className="text-[3rem] sm:text-[4rem] md:text-[5rem] font-saveya text-[#2c3e50] tracking-wide leading-none"
+      data-aos="fade-down"
+      >
         <span className="block md:inline">uncommon</span>
       </h2>
-      <h2 className="text-[3rem] sm:text-[4rem] md:text-[5rem] font-saveya text-[#2c3e50] tracking-wide leading-none mb-4 md:mb-8">
+      <h2 className="text-[3rem] sm:text-[4rem] md:text-[5rem] font-saveya text-[#2c3e50] tracking-wide leading-none mb-4 md:mb-8"
+      data-aos="fade-down"
+      >
         opportunity
       </h2>
-      <div className="mt-4 md:mt-10">
+      <div className="mt-4 md:mt-10" 
+        data-aos="fade-down"
+      >
         <h3
           className="text-lg sm:text-xl md:text-2xl font-semibold text-[#2c3e50] font-editorial cursor-pointer"
           onClick={handleEnquireClick}
