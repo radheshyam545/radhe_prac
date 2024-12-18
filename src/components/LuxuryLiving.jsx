@@ -68,7 +68,7 @@ const LuxurySense = () => {
           {/* Cutting-edge home automation technology.   A */}
            {/* <br className="hidden md:inline"/> */}
            
-           A dedicated concierge. Private facilities for work <br className="hidden md:inline"/> and play. Limousine services and valet parking. <br/> The connectedness of a like-minded <br className="hidden md:inline"/> community. And here, a stone’s throw from <br className="hidden md:inline"/> Lutyens’ Delhi, a thirty-minute airport transfer <br className="hidden md:inline"/>  connects you to the world. 
+           A dedicated concierge. Private facilities for work <br className="hidden md:inline"/> and play. Limousine services and valet parking. <br className="hidden md:inline"/> The connectedness of a like-minded <br className="hidden md:inline"/> community. And here, a stone’s throw from <br className="hidden md:inline"/> Lutyens’ Delhi, a thirty-minute airport transfer <br className="hidden md:inline"/>  connects you to the world. 
           </p>
         </div>
       </div>
