@@ -53,7 +53,7 @@ const ModernHome = () => {
         {/* Second Column with Image */}
         <div className="w-full md:w-[50%] relative md:border-l border-red-600 px-1 flex justify-center md:justify-start">
           {/* Bottom Image (Absolutely Positioned) */}
-          <div className="absolute top-0 left-[20px] md:left-[5%] w-full max-w-[320px] md:w-[360px] h-[300px] md:h-[390px] z-10 md:top-[-40px]">
+          <div className="absolute top-0  md:left-[5%] w-full max-w-[365px] md:w-[360px] h-[300px] md:h-[390px] z-10 md:top-[-40px] px-4 md:px-0">
             <img
               src={small_banner}
               alt="Modern Apartment Interior"

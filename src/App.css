@@ -7,3 +7,21 @@
     background: url('./assets/second_banner.jpg');
     background-size: cover;
 }
+
+/* Assuming you are adding this in your global.css or any imported CSS file */
+@keyframes continuous-zoom {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.1);
+    }
+  }
+  
+  .zoom-image {
+    /* width: 100%; */
+    /* height: 100%; */
+    object-fit: cover; /* Ensures the image covers the container without stretching */
+    animation: continuous-zoom 20s infinite alternate ease-in-out; /* Applying the zoom effect */
+  }
+  

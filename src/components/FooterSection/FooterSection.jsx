@@ -80,11 +80,13 @@ const HalfWidthSection = () => {
 
           {/* Right Column */}
           <div className="w-[50%] relative ">
+          <a href="https://bipgroup.com/" target="_blank" rel="noopener noreferrer">
             <img
               src={footer_logo}
               alt=""
               className="absolute bottom-4 right-0 md:right-[50px] w-[150px] h-[150px]  md:w-[200px] md:h-[200px] object-contain"
             />
+             </a>
           </div>
         </div>
         <div className="h-[90px]">
