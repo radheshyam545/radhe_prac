@@ -7,6 +7,8 @@ import bg_image from "../assets/bg_image.png";
 import footer_logo from "../assets/footer_logo.png";
 import small_card_2 from "../assets/small_card_2.jpg";
 
+
+import amenitiesPDF from "../assets/TRIDENT_RESIDENCES_Amenities_page.pdf"
 export {
     main_logo,
     second_banner,
@@ -16,4 +18,5 @@ export {
     bg_image,
     footer_logo,
     small_card_2,
+    amenitiesPDF
 }

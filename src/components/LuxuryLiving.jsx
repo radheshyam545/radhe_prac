@@ -65,7 +65,10 @@ const LuxurySense = () => {
           </h1>
           {/* <p className="text-[#5c5c5c] leading-relaxed text-[14px] w-full 2xl:w-[30%] xl:w-[40%] lg:w-[50%] md:w-[70%] font-editorial"> */}
           <p className="text-[#5c5c5c] leading-relaxed text-[14px] w-full  font-editorial">
-          Cutting-edge home automation technology.   A <br className="hidden md:inline"/> dedicated concierge. Private facilities for work <br className="hidden md:inline"/> and play.  The connectedness of a like-minded <br className="hidden md:inline"/> community. And here, a stone’s throw from <br className="hidden md:inline"/> Lutyens’ Delhi, a thirty-minute airport transfer <br className="hidden md:inline"/>  connects you to the world. 
+          {/* Cutting-edge home automation technology.   A */}
+           {/* <br className="hidden md:inline"/> */}
+           
+           A dedicated concierge. Private facilities for work <br className="hidden md:inline"/> and play. Limousine services and valet parking. <br/> The connectedness of a like-minded <br className="hidden md:inline"/> community. And here, a stone’s throw from <br className="hidden md:inline"/> Lutyens’ Delhi, a thirty-minute airport transfer <br className="hidden md:inline"/>  connects you to the world. 
           </p>
         </div>
       </div>

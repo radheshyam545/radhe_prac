@@ -44,8 +44,9 @@ const ModernHome = () => {
             Welcome to a one-of-a-kind collection of just <br className="hidden md:inline"/> nineteen elegantly
             designed apartments at the <br className="hidden md:inline"/> heart of New Delhi, combining the
             comforts of a <br className="hidden md:inline"/> luxury home with the privileges of instant access to <br className="hidden md:inline"/>
-            world-class hotel services, in partnership with The <br className="hidden md:inline"/> Oberoi, New
-            Delhi.
+            world-class hotel services, in partnership with The <br className="hidden md:inline"/> The Oberoi Group.
+
+          
           </p>
         </div>
 

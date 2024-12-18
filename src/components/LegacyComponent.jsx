@@ -1,5 +1,7 @@
 import React, { useState } from "react";
-import { main_logo } from "../exportImages/export";
+import { amenitiesPDF, main_logo } from "../exportImages/export";
+
+// import amenitiesPDF from "../assets/TRIDENT_RESIDENCES_Amenities_page.pdf"
 
 const LegacyComponent = () => {
 
@@ -38,9 +40,21 @@ const LegacyComponent = () => {
         <div className="p-5">
           <h2 className="font-bold text-lg">Menu</h2>
           <ul className="divide-y divide-gray-300">
-            <li className="py-2 text-lg">Amenities</li>
-            <li className="py-2 text-lg">Brochure</li>
-            <li className="py-2 text-lg">Privacy</li>
+            <li className="py-2 text-lg">
+            <a href={amenitiesPDF} target="_blank" rel="noopener noreferrer">
+                Amenities
+              </a>
+            </li>
+            <li className="py-2 text-lg">
+            <a href="https://tridentresidences.com/wp-content/uploads/2024/04/Trident-Residences.pdf" target="_blank" rel="noopener noreferrer">
+                Brochure
+              </a>
+            </li>
+            <li className="py-2 text-lg">
+            <a href="https://tridentresidences.com/wp-content/uploads/2024/04/Trident-Residences-Privacy-Policy.pdf" target="_blank" rel="noopener noreferrer">
+                Privacy
+              </a>
+            </li>
           </ul>
         </div>
       </div>  
@@ -55,14 +69,10 @@ const LegacyComponent = () => {
           evolve.
         </h1>
         <p className="mt-8 text-sm md:text-base text-[#666666] leading-relaxed max-w-[500px] mx-auto font-editorial">
-          When you bring together the best of both hotel and home, in a place
-          primed for self-expression and enhanced by the luxury of convenience,
-          the feeling is liberating.
+        When you bring together the best of both a luxury hotel and a home, in a habitat primed for self-expression, the feeling is liberating.
         </p>
         <p className="mt-4 text-sm md:text-base text-[#666666] leading-relaxed max-w-[500px] mx-auto font-editorial">
-          Freed from the freneticism of modern metropolitan life, you’re at once
-          soothed by the beauty of good design and energized by an unhindered
-          lifestyle.
+        Freed from the freneticism of modern metropolitan life, you're at once soothed by the beauty and simplicity of good design and energised by the possibilities of an unhindered lifestyle. 
         </p>
         <p className="mt-6 text-sm md:text-base font-medium text-[#666666] font-editorial">
           And so your next chapter begins...
