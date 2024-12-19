@@ -20,7 +20,7 @@ const LuxurySense = () => {
             Meticulously crafted details. The finest natural <br className="hidden md:inline"/> materials. The
             abundance of nature in an urban <br className="hidden md:inline"/> jungle. An antidote to the
             mass-produced. With <br className="hidden md:inline"/> an uncompromising approach to design, The <br className="hidden md:inline"/>
-            Oberoi's first and only residences are <br className="hidden md:inline"/> distinguished above all by
+            Oberoi's Group first and only residences are <br className="hidden md:inline"/> distinguished above all by
             their rarity.
           </p>
         </div>
