@@ -28,7 +28,7 @@ const HalfWidthSection = () => {
           </div>
 
           {/* Right Side: Amenities, Press, Privacy */}
-          <div className="flex space-x-8 pr-10">
+          <div className="flex space-x-8 pr-10 text-[#CCC9C2]">
             <p className="text-[25px] hover:text-gray-300 cursor-pointer">
               <a href={amenitiesPDF} target="_blank" rel="noopener noreferrer">
               Amenities
@@ -84,7 +84,7 @@ const HalfWidthSection = () => {
             <img
               src={footer_logo}
               alt=""
-              className="absolute bottom-4 right-0 md:right-[50px] w-[150px] h-[150px]  md:w-[200px] md:h-[200px] object-contain"
+              className="absolute bottom-4 right-0 md:right-[54px] w-[150px] h-[150px]  md:w-[190px] md:h-[190px] object-contain"
             />
              </a>
           </div>

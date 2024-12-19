@@ -39,17 +39,17 @@ const UncommonOpportunity = () => {
       className=" sm:text-[4rem] font-saveya text-[#2c3e50] tracking-wide leading-none  text-[60px] md:text-[110px]"
       data-aos="fade-down"
       >
-        An
+        Make your 
       </h1>
-      <h2 className="text-[3rem] sm:text-[4rem] md:text-[5rem] font-saveya text-[#2c3e50] tracking-wide leading-none"
+      <h2 className="text-[3rem] sm:text-[4rem] md:text-[5rem] font-saveya text-[#2c3e50] tracking-wide leading-none mt-[13px]"
       data-aos="fade-down"
       >
-        <span className="block md:inline">uncommon</span>
+        <span className="block md:inline">smartest</span>
       </h2>
-      <h2 className="text-[3rem] sm:text-[4rem] md:text-[5rem] font-saveya text-[#2c3e50] tracking-wide leading-none mb-4 md:mb-8"
+      <h2 className="text-[3rem] sm:text-[4rem] md:text-[5rem] font-saveya text-[#2c3e50] tracking-wide leading-none mb-4 md:mb-8 mt-[13px]"
       data-aos="fade-down"
       >
-        opportunity
+        move
       </h2>
       <div className="mt-4 md:mt-10" 
         data-aos="fade-down"

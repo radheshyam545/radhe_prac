@@ -29,7 +29,7 @@ const ModernHome = () => {
       <div className="relative flex flex-col md:flex-row h-auto md:h-[400px] border items-start">
         {/* Text Section */}
         <div 
-        className="w-full md:w-[50%] z-20 text-left md:text-right flex flex-col justify-end items-start md:items-end px-5  py-5 md:py-0 h-auto md:h-[330px] "
+        className="w-full md:w-[50%] z-20 text-left md:text-right flex flex-col justify-end items-start md:items-end px-5  py-5 md:py-0 h-auto md:h-[390px]"
         data-aos="fade-down"
         >
          
@@ -37,14 +37,15 @@ const ModernHome = () => {
             The apogee of the modern metropolitan home
           </h2>
           <p 
-          className="mt-4 text-sm md:text-base text-[#6a7579] leading-relaxed  font-editorial"
+          className="mt-[24px] text-sm md:text-[18px] text-[#142A33] leading-relaxed  font-editorial"
           // className="mt-4 text-sm md:text-base text-[#6a7579] leading-relaxed max-w-[300px] font-editorial"
           
           >
             Welcome to a one-of-a-kind collection of just <br className="hidden md:inline"/> nineteen elegantly
             designed apartments at the <br className="hidden md:inline"/> heart of New Delhi, combining the
-            comforts of a <br className="hidden md:inline"/> luxury home with the privileges of instant access to <br className="hidden md:inline"/>
-            world-class hotel services, in partnership with The <br className="hidden md:inline"/> The Oberoi Group.
+            comforts of  <br className="hidden md:inline"/>a luxury home with the privileges of instant  <br className="hidden md:inline"/>
+            access to  world-class hotel services, in 
+            <br className="hidden md:inline"/>partnership with The  The Oberoi Group.
 
           
           </p>

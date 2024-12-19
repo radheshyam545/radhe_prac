@@ -19,7 +19,9 @@ const LegacyComponent = () => {
     <div className="relative w-full  min-h-screen  overflow-hidden flex flex-col justify-center items-center bg-[#e8e4df] pb-20 ">
       {/* Logo Section */}
       <div className="absolute top-5 left-5 flex items-center space-x-2">
-        <img src={main_logo} alt="Trident Logo" className="w-[60px] h-[48px] object-cover" />
+        <div className="w-[70px] h-[70px]">
+        <img src={main_logo} alt="Trident Logo" className="w-full h-auto object-cover" />
+        </div>
         {/* <h1 className="text-xs uppercase tracking-wider text-[#8d5c36] font-semibold">
           Trident Residences
         </h1> */}
@@ -63,18 +65,18 @@ const LegacyComponent = () => {
 
       {/* Main Content */}
       <div className="text-center md:px-6 px-1  pt-[120px]">
-        <h1 className="text-[45px] md:text-[110px] font-light leading-tight text-[#142933] font-saveya ">
+        <h1 className="text-[45px] md:text-[110px] font-light leading-tight text-[#142A33 ] font-saveya ">
           Let <br />
           <span className="">your legacy</span> <br />
           evolve.
         </h1>
-        <p className="mt-8 text-sm md:text-base text-[#666666] leading-relaxed max-w-[500px] mx-auto font-editorial">
+        <p className="mt-8 text-sm md:text-[18px] text-[#666666] leading-relaxed max-w-[500px] mx-auto font-editorial">
         When you bring together the best of both a luxury hotel and a home, in a habitat primed for self-expression, the feeling is liberating.
         </p>
-        <p className="mt-4 text-sm md:text-base text-[#666666] leading-relaxed max-w-[500px] mx-auto font-editorial">
+        <p className="mt-4 text-sm md:text-[18px] text-[#666666] leading-relaxed max-w-[500px] mx-auto font-editorial">
         Freed from the freneticism of modern metropolitan life, you're at once soothed by the beauty and simplicity of good design and energised by the possibilities of an unhindered lifestyle. 
         </p>
-        <p className="mt-6 text-sm md:text-base font-medium text-[#666666] font-editorial">
+        <p className="mt-6 text-sm md:text-[18px] font-medium text-[#666666] font-editorial">
           And so your next chapter begins...
         </p>
       </div>

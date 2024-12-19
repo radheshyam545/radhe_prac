@@ -58,12 +58,12 @@ const TranscendCity = () => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-[#0F1C23] text-gray-200 flex items-center justify-center">
+    <div className="min-h-screen bg-[#0F1C23] text-[#CCC9C2] flex items-center justify-center">
       <div className="text-center mx-4">
         {/* Main Heading with fade-in effect */}
         <h1
           // ref={textRef1}
-          className={`text-[60px] md:text-[110px] font-light text-gray-300 leading-tight tracking-wide font-saveya  transition-all duration-1000 ease-out`}
+          className={`text-[60px] md:text-[110px] font-light text-[#CCC9C2] leading-tight tracking-wide font-saveya  transition-all duration-1000 ease-out`}
           data-aos="fade-down"
        >
           Transcend
@@ -73,7 +73,7 @@ const TranscendCity = () => {
         <h2
           // ref={textRef2}
             data-aos="fade-down"
-          className={`text-[60px] md:text-[110px] font-light mt-2 text-gray-300 leading-snug font-saveya  transition-all duration-1000 ease-out`}
+          className={`text-[60px] md:text-[110px] font-light mt-2 text-[#CCC9C2] leading-snug font-saveya  transition-all duration-1000 ease-out`}
         >
           the city
         </h2>
@@ -83,7 +83,7 @@ const TranscendCity = () => {
           <p
             // ref={textRef3}
               data-aos="fade-down"
-            className={`mt-[50px] text-sm md:text-base leading-relaxed tracking-wide text-gray-400 font-editorial px-2 md:px-0 transition-all duration-1000 ease-out`}
+            className={`mt-[50px] text-sm md:text-base leading-relaxed tracking-wide text-[#CCC9C2] font-editorial px-2 md:px-0 transition-all duration-1000 ease-out`}
           >
             V-shaped pilotis elevate the residences above a beautifully landscaped pedestrian realm, with an expansive Sky Lounge poised above the metropolis below. Here, as night falls, the lights of the Jawaharlal Nehru Stadium shimmer before you, the evening air a heady aperitif before dinner.
           </p>
@@ -91,7 +91,7 @@ const TranscendCity = () => {
           {/* Bottom Text with fade-in effect */}
           <p
           data-aos="fade-down"
-            className={`mt-8 text-sm md:text-base md:px-0 font-light text-gray-400 font-editorial  transition-all duration-1000 ease-out`}
+            className={`mt-8 text-sm md:text-base md:px-0 font-light text-[#CCC9C2] font-editorial  transition-all duration-1000 ease-out`}
           >
             Just beyond lie the timeless icons of the national capital. This is
             your vantage <br /> point. This is your domain.
