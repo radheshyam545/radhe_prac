@@ -5,7 +5,8 @@ import AddressCard from "./AddressCard";
 const HalfWidthSection = () => {
   return (
     <div
-      className="bg-[#0A1A2B] text-[#D1D5DB] h-[860px] w-full  bg-no-repeat "
+      // className="bg-[#0A1A2B] text-[#D1D5DB] h-[860px] w-full  bg-no-repeat "
+      className=" text-[#D1D5DB] h-[860px] w-full  bg-no-repeat "
       style={{
         backgroundImage: `url(${bg_image})`,
         backgroundPosition: "left -100px bottom -150px", // Adjusted position

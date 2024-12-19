@@ -10,7 +10,8 @@ const ModernHome = () => {
   
 
   return (
-    <div className="bg-[#e8e4df] relative h-[1000px]">
+    // <div className="bg-[#e8e4df] relative h-[1000px]">
+    <div className=" relative h-[1000px]">
       {/* Top Image with Parallax Effect */}
       <div
         className="relative w-full h-[400px] md:h-[500px] overflow-hidden"
@@ -26,7 +27,7 @@ const ModernHome = () => {
       </div>
 
       {/* Content Section */}
-      <div className="relative flex flex-col md:flex-row h-auto md:h-[400px] border items-start">
+      <div className="relative flex flex-col md:flex-row h-auto md:h-[400px]  items-start">
         {/* Text Section */}
         <div 
         className="w-full md:w-[50%] z-20 text-left md:text-right flex flex-col justify-end items-start md:items-end px-5  py-5 md:py-0 h-auto md:h-[390px]"

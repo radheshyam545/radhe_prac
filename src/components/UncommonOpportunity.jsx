@@ -32,7 +32,8 @@ const UncommonOpportunity = () => {
 
   return (
     <div 
-    className="flex flex-col items-center justify-center min-h-screen h-auto md:h-[600px] bg-[#f4f0eb] text-center px-6 py-10 md:px-16 md:py-16"
+    className="flex flex-col items-center justify-center min-h-screen h-auto md:h-[600px]  text-center px-6 py-10 md:px-16 md:py-16"
+    // className="flex flex-col items-center justify-center min-h-screen h-auto md:h-[600px] bg-[#f4f0eb] text-center px-6 py-10 md:px-16 md:py-16"
     
     >
       <h1 

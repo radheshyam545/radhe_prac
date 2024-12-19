@@ -59,6 +59,7 @@ const TranscendCity = () => {
 
   return (
     <div className="min-h-screen bg-[#0F1C23] text-[#CCC9C2] flex items-center justify-center">
+    {/* <div className="min-h-screen bg-[#0F1C23] text-[#CCC9C2] flex items-center justify-center"> */}
       <div className="text-center mx-4">
         {/* Main Heading with fade-in effect */}
         <h1

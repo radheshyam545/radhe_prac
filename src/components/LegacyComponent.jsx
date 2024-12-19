@@ -16,7 +16,8 @@ const LegacyComponent = () => {
 
 
   return (
-    <div className="relative w-full  min-h-screen  overflow-hidden flex flex-col justify-center items-center bg-[#e8e4df] pb-20 ">
+    <div className="relative w-full  min-h-screen  overflow-hidden flex flex-col justify-center items-center  pb-20 ">
+      {/* bg-[#e8e4df] */}
       {/* Logo Section */}
       <div className="absolute top-5 left-5 flex items-center space-x-2">
         <div className="w-[70px] h-[70px]">
