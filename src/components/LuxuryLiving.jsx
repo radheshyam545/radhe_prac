@@ -5,7 +5,7 @@ const LuxurySense = () => {
   return (
     <div className="md:px-6 md:py-[110px] py-[30px] bg-[#e8e4df]">
       {/* First Row */}
-      <div className="flex flex-col md:flex-row h-auto md:h-[305px] overflow-hidden mb-[50px]">
+      <div className="flex flex-col md:flex-row h-auto md:h-[305px] overflow-hidden md:mb-[50px] mb-2">
         {/* Text Section */}
         <div 
         className="w-full md:w-[50%] flex flex-col items-start md:items-end justify-center md:justify-end sm:justify-end  px-5 md:px-5 text-left md:text-right"

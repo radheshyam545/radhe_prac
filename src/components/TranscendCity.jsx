@@ -64,7 +64,7 @@ const TranscendCity = () => {
         {/* Main Heading with fade-in effect */}
         <h1
           // ref={textRef1}
-          className={`text-[60px] md:text-[110px] font-light text-[#CCC9C2] leading-tight tracking-wide font-saveya  transition-all duration-1000 ease-out`}
+          className={`text-[60px] md:text-[110px] font-light text-[#CCC9C2] leading-tight tracking-wide font-saveya  transition-all duration-1000 ease-out px-2`}
           data-aos="fade-down"
        >
           Transcend
@@ -92,7 +92,7 @@ const TranscendCity = () => {
           {/* Bottom Text with fade-in effect */}
           <p
           data-aos="fade-down"
-            className={`mt-8 text-sm md:text-base md:px-0 font-light text-[#CCC9C2] font-editorial  transition-all duration-1000 ease-out`}
+            className={`mt-8 text-sm md:text-base md:px-0 font-light text-[#CCC9C2] font-editorial px-2 transition-all duration-1000 ease-out`}
           >
             Just beyond lie the timeless icons of the national capital. This is
             your vantage <br /> point. This is your domain.

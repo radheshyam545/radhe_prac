@@ -29,8 +29,8 @@ const LegacyComponent = () => {
       </div>
 
       {/* Hamburger Menu */}
-      <div className="absolute top-5 right-5" onClick={toggleSidebar}>
-        <div className="space-y-1">
+      <div className="absolute top-7 md:top-7 right-5" onClick={toggleSidebar}>
+        <div className="space-y-2">
           <div className="w-[40px] h-[1px] bg-black"></div>
           <div className="w-[40px] h-[1px] bg-black"></div>
           <div className="w-[40px] h-[1px] bg-black"></div>
@@ -66,18 +66,18 @@ const LegacyComponent = () => {
 
       {/* Main Content */}
       <div className="text-center md:px-6 px-1  pt-[120px]">
-        <h1 className="text-[45px] md:text-[110px] font-light leading-tight text-[#142A33 ] font-saveya ">
+        <h1 className="text-[60px] md:text-[110px] font-light leading-tight text-[#142A33 ] font-saveya ">
           Let <br />
           <span className="">your legacy</span> <br />
           evolve.
         </h1>
-        <p className="mt-8 text-sm md:text-[18px] text-[#666666] leading-relaxed max-w-[500px] mx-auto font-editorial">
+        <p className="mt-8 text-sm md:text-[18px] text-[#666666] leading-relaxed max-w-[500px] mx-auto font-editorial px-2">
         When you bring together the best of both a luxury hotel and a home, in a habitat primed for self-expression, the feeling is liberating.
         </p>
-        <p className="mt-4 text-sm md:text-[18px] text-[#666666] leading-relaxed max-w-[500px] mx-auto font-editorial">
+        <p className="mt-4 text-sm md:text-[18px] text-[#666666] leading-relaxed max-w-[500px] mx-auto font-editorial px-2">
         Freed from the freneticism of modern metropolitan life, you're at once soothed by the beauty and simplicity of good design and energised by the possibilities of an unhindered lifestyle. 
         </p>
-        <p className="mt-6 text-sm md:text-[18px] font-medium text-[#666666] font-editorial">
+        <p className="mt-6 text-sm md:text-[18px] font-medium text-[#666666] font-editorial px-2">
           And so your next chapter begins...
         </p>
       </div>

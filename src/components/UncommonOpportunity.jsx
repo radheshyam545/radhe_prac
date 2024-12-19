@@ -42,12 +42,12 @@ const UncommonOpportunity = () => {
       >
         Make your 
       </h1>
-      <h2 className="text-[3rem] sm:text-[4rem] md:text-[5rem] font-saveya text-[#2c3e50] tracking-wide leading-none mt-[13px]"
+      <h2 className="text-[60px] sm:text-[4rem] md:text-[5rem] font-saveya text-[#2c3e50] tracking-wide leading-none mt-[13px] "
       data-aos="fade-down"
       >
         <span className="block md:inline">smartest</span>
       </h2>
-      <h2 className="text-[3rem] sm:text-[4rem] md:text-[5rem] font-saveya text-[#2c3e50] tracking-wide leading-none mb-4 md:mb-8 mt-[13px]"
+      <h2 className="text-[60px] sm:text-[4rem] md:text-[5rem] font-saveya text-[#2c3e50] tracking-wide leading-none mb-4 md:mb-8 mt-[13px]"
       data-aos="fade-down"
       >
         move
