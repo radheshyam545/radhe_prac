@@ -66,7 +66,7 @@ const LegacyComponent = () => {
 
       {/* Main Content */}
       <div className="text-center md:px-6 px-1  pt-[120px]">
-        <h1 className="text-[60px] md:text-[110px] font-light leading-tight text-[#142A33 ] font-saveya ">
+        <h1 className="text-[60px] md:text-[110px] font-light leading-tight text-[#162933] font-saveya px-3">
           Let <br />
           <span className="">your legacy</span> <br />
           evolve.

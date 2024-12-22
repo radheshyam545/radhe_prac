@@ -59,7 +59,7 @@ const HalfWidthSection = () => {
             <div className="px-5  flex flex-col justify-between">
               {/* Address Section */}
               <div className=" ">
-                <h2 className="text-[24px] font-semibold mb-7">The address</h2>
+                <h2 className="text-[24px] font-semibold mb-7 truncate">The address</h2>
                 <p className="text-gray-400 text-[16px]">9 Link Road,</p>
                 <p className="text-gray-400 mb-5">New Delhi 110014</p>
                 <p className="text-gray-400 hover:text-white mb-5">
