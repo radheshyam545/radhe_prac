@@ -6,6 +6,8 @@ import short_card_1 from "../assets/short_card_1.jpeg";
 import bg_image from "../assets/bg_image.png";
 import footer_logo from "../assets/footer_logo.png";
 import small_card_2 from "../assets/small_card_2.jpg";
+import luxury_card_image_1 from "../assets/luxury_card_image_1.jpeg";
+import luxury_cad_image_2 from "../assets/luxury_cad_image_2.jpeg";
 
 
 import amenitiesPDF from "../assets/TRIDENT_RESIDENCES_Amenities_page.pdf"
@@ -18,5 +20,7 @@ export {
     bg_image,
     footer_logo,
     small_card_2,
-    amenitiesPDF
+    amenitiesPDF,
+    luxury_card_image_1,
+    luxury_cad_image_2
 }
