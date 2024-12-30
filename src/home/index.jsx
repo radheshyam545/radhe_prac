@@ -18,7 +18,8 @@ const HomePage = () => {
     CustomImageComponent: '#e8e4df',
     LuxuryLiving: '#e8e4df',
     UncommonOpportunity: '#f4f0eb',
-    FooterSection: '#0A1A2B',
+    // FooterSection: '#0A1A2B',
+    FooterSection: '#0F1C23',
   };
 
   useEffect(() => {

@@ -20,7 +20,7 @@ const LuxurySense = () => {
             Meticulously crafted details. The finest natural <br className="hidden md:inline"/> materials. The
             abundance of nature in an urban <br className="hidden md:inline"/> jungle. An antidote to the
             mass-produced. With an<br className="hidden md:inline"/>  uncompromising approach to design, The Oberoi<br className="hidden md:inline"/>
-             Group’s  and only residences are distinguished<br className="hidden md:inline"/>  above all by
+             Group’s first and only residences are distinguished<br className="hidden md:inline"/>  above all by
             their rarity.
           </p>
         </div>
@@ -34,7 +34,8 @@ const LuxurySense = () => {
           <img
             src={luxury_card_image_1} // Image imported
             alt="Luxury Interior"
-            className=" object-cover w-full h-[180px] sm:w-[220px] sm:h-[220px] md:w-[340px] md:h-[300px]"
+            className=" object-cover w-full h-[300px] sm:w-[220px] md:w-[340px] md:h-[300px]"
+            // className=" object-cover w-full h-[180px] sm:w-[220px] sm:h-[220px] md:w-[340px] md:h-[300px]"
             // className="zoom-image object-cover w-full h-[180px] sm:w-[220px] sm:h-[220px] md:w-[340px] md:h-[300px]"
             // className="shadow-lg object-cover w-[180px] h-[180px] sm:w-[220px] sm:h-[220px] md:w-[300px] md:h-[300px]"
           />
@@ -52,7 +53,8 @@ const LuxurySense = () => {
           <img
             src={luxury_cad_image_2} // Image imported
             alt="Luxury Interior"
-            className="object-cover w-full h-[180px] sm:w-[220px] sm:h-[220px] md:w-[340px] md:h-[300px]"
+            className="object-cover w-full h-[300px] sm:w-[220px]  md:w-[340px] md:h-[300px]"
+            // className="object-cover w-full h-[180px] sm:w-[220px] sm:h-[220px] md:w-[340px] md:h-[300px]"
             // className="zoom-image  object-cover w-full h-[180px] sm:w-[220px] sm:h-[220px] md:w-[340px] md:h-[300px]"
             // className="shadow-lg object-cover w-[180px] h-[180px] sm:w-[220px] sm:h-[220px] md:w-[300px] md:h-[300px]"
           />
@@ -71,7 +73,7 @@ const LuxurySense = () => {
             An exemplar of <br className="hidden md:inline"/> effortless living
           </h1>
           {/* <p className="text-[#5c5c5c] leading-relaxed text-[14px] w-full 2xl:w-[30%] xl:w-[40%] lg:w-[50%] md:w-[70%] font-editorial"> */}
-          <p className="mt-[24px] text-[#142A33] leading-[1.2] text-[18px] w-full  font-editorial">
+          <p className="mt-[24px] text-[#142A33] leading-[1.2] text-sm  md:text-[18px] w-full  font-editorial">
           {/* Cutting-edge home automation technology.   A */}
            {/* <br className="hidden md:inline"/> */}
            
