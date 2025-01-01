@@ -67,12 +67,12 @@ const UncommonOpportunity = () => {
         data-aos="fade-down"
       >
         <h3
-          className="text-lg sm:text-xl md:text-2xl font-semibold text-[#666666] font-editorial cursor-pointer"
+          className="font-editorial cursor-pointer text-[#28303b] text-sm md:text-[18px]"
           onClick={handleEnquireClick}
         >
           Enquire
         </h3>
-        <p className="text-sm sm:text-base md:text-[18px] text-[#666666] font-medium  font-editorial">
+        <p className="text-[#142A33]  leading-relaxed font-editorial  text-sm md:text-[18px] ">
           Express your interest in a private viewing.
         </p>
       </div>
