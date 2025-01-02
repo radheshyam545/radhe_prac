@@ -95,7 +95,7 @@ const TranscendCity = () => {
             className={`mt-8 text-sm md:text-[18px] md:px-0 font-light text-[#CCC9C2] font-editorial px-2 transition-all duration-1000 ease-out`}
           >
             Just beyond lie the timeless icons of the national capital. This is
-            your vantage <br /> point. This is your domain.
+            your vantage point. This is your domain.
           </p>
         </div>
       </div>
