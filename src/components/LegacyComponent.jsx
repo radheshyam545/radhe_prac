@@ -49,8 +49,8 @@ const LegacyComponent = () => {
               </a>
             </li>
             <li className="py-2">
-            <a href="https://tridentresidences.com/wp-content/uploads/2024/04/Trident-Residences.pdf" target="_blank" rel="noopener noreferrer">
-                Brochure
+            <a href="#" rel="noopener noreferrer">
+                Press
               </a>
             </li>
             <li className="py-2">
