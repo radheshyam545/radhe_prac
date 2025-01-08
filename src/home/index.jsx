@@ -5,7 +5,7 @@ import TranscendCity from '../components/TranscendCity';
 import CustomImageComponent from '../components/customImage/CustomImage';
 import LuxuryLiving from '../components/LuxuryLiving';
 import UncommonOpportunity from '../components/UncommonOpportunity';
-import FooterSection from '../components/FooterSection/FooterSection';
+import FooterSection from '../components/FooterSection';
 
 const HomePage = () => {
   const [activeSection, setActiveSection] = useState(null); // Active section track karna

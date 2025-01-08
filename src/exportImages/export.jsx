@@ -10,7 +10,8 @@ import luxury_card_image_1 from "../assets/luxury_card_image_1.jpeg";
 import luxury_cad_image_2 from "../assets/luxury_cad_image_2.jpeg";
 
 
-import amenitiesPDF from "../assets/TRIDENT_RESIDENCES_Amenities_page.pdf"
+// import amenitiesPDF from "../assets/TRIDENT_RESIDENCES_Amenities_page.pdf"
+import amenitiesPDF from "../assets/ammineties/Trident_Residences_Amminities_2.pdf"
 export {
     main_logo,
     second_banner,

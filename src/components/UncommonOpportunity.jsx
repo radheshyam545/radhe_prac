@@ -67,7 +67,7 @@ const UncommonOpportunity = () => {
         data-aos="fade-down"
       >
         <h3
-          className="font-editorial cursor-pointer text-[#142A33] text-sm md:text-[18px]"
+          className="font-editorial text-2xl sm:text-3xl md:text-[36px] font-light cursor-pointer text-[#142A33]"
           onClick={handleEnquireClick}
         >
           Enquire
