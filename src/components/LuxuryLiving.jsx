@@ -5,10 +5,10 @@ const LuxurySense = () => {
   return (
     <div className="md:px-6 md:py-[110px] py-[30px] bg-[#e8e4df]">
       {/* First Row */}
-      <div className="flex flex-col md:flex-row h-auto md:h-[305px] overflow-hidden md:mb-[50px] mb-2">
+      <div className="flex flex-col md:flex-row h-auto md:h-[390px] overflow-hidden md:mb-[50px] mb-2 ">
         {/* Text Section */}
         <div 
-        className="w-full md:w-[50%] flex flex-col items-start md:items-end justify-center md:justify-end sm:justify-end  px-5 md:px-5 text-left md:text-right"
+        className="w-full md:w-[50%] flex flex-col items-start md:items-end justify-center md:justify-end sm:justify-end  px-5 md:px-5 text-left md:text-right "
         data-aos="fade-right"
         >
           
@@ -34,7 +34,7 @@ const LuxurySense = () => {
           <img
             src={luxury_card_image_1} // Image imported
             alt="Luxury Interior"
-            className=" object-cover w-full h-[300px] sm:w-[220px] md:w-[340px] md:h-[300px]"
+            className="object-cover w-full  sm:w-[220px] md:w-[360px] h-[300px] md:h-[390px]   max-w-[385px]"
             // className=" object-cover w-full h-[180px] sm:w-[220px] sm:h-[220px] md:w-[340px] md:h-[300px]"
             // className="zoom-image object-cover w-full h-[180px] sm:w-[220px] sm:h-[220px] md:w-[340px] md:h-[300px]"
             // className="shadow-lg object-cover w-[180px] h-[180px] sm:w-[220px] sm:h-[220px] md:w-[300px] md:h-[300px]"
@@ -43,7 +43,7 @@ const LuxurySense = () => {
       </div>
 
       {/* Second Row - Reversed */}
-      <div className="flex flex-col md:flex-row h-auto md:h-[305px] overflow-hidden">
+      <div className="flex flex-col md:flex-row h-auto md:h-[390px] overflow-hidden">
         {/* Image Section */}
   
         <div 
@@ -53,7 +53,7 @@ const LuxurySense = () => {
           <img
             src={luxury_cad_image_2} // Image imported
             alt="Luxury Interior"
-            className="object-cover w-full h-[300px] sm:w-[220px]  md:w-[340px] md:h-[300px]"
+            className="object-cover w-full h-[300px] md:h-[390px] sm:w-[220px]  md:w-[360px] max-w-[385px]"
             // className="object-cover w-full h-[180px] sm:w-[220px] sm:h-[220px] md:w-[340px] md:h-[300px]"
             // className="zoom-image  object-cover w-full h-[180px] sm:w-[220px] sm:h-[220px] md:w-[340px] md:h-[300px]"
             // className="shadow-lg object-cover w-[180px] h-[180px] sm:w-[220px] sm:h-[220px] md:w-[300px] md:h-[300px]"

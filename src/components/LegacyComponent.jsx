@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { amenitiesPDF, main_logo } from "../exportImages/export";
-
+import { RxCross1 } from 'react-icons/rx';  // Import RxCross1 icon
 // import amenitiesPDF from "../assets/TRIDENT_RESIDENCES_Amenities_page.pdf"
 
 const LegacyComponent = () => {
@@ -29,12 +29,16 @@ const LegacyComponent = () => {
       </div>
 
       {/* Hamburger Menu */}
-      <div className="absolute top-7 md:top-10 right-5 md:right-10" onClick={toggleSidebar}>
-        <div className="space-y-2">
-          <div className="w-[40px] h-[1px] bg-black"></div>
-          <div className="w-[40px] h-[1px] bg-black"></div>
-          <div className="w-[40px] h-[1px] bg-black"></div>
+      <div className={`absolute cursor-pointer top-7 md:${isSidebarOpen ? "top-[40px]" : "top-10"} right-5 md:right-10`} onClick={toggleSidebar}>
+      {isSidebarOpen ? (
+        <RxCross1 className="text-[29px] " />  // Ensure the cross icon is visible above the sidebar
+    ) : (
+        <div className="space-y-2"> 
+            <div className="w-[40px] h-[1px] bg-black"></div>
+            <div className="w-[40px] h-[1px] bg-black"></div>
+            <div className="w-[40px] h-[1px] bg-black"></div>
         </div>
+    )}
       </div>
 
 

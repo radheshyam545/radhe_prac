@@ -92,7 +92,7 @@ const TranscendCity = () => {
           {/* Bottom Text with fade-in effect */}
           <p
           data-aos="fade-down"
-            className={`mt-8 text-sm md:text-[18px] md:px-0 font-light text-[#CCC9C2] font-editorial px-5 transition-all duration-1000 ease-out`}
+            className={`mt-8 text-sm md:text-[18px] md:px-0 font-light text-[#CCC9C2] font-editorial px-5 transition-all duration-1000 ease-out leading-relaxed tracking-wide `}
           >
             Just beyond lie the timeless icons of the national capital. This is
             your vantage point. This is your domain.

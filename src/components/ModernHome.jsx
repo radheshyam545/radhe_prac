@@ -35,7 +35,7 @@ const ModernHome = () => {
         >
          
           <h2 className="text-2xl md:text-[36px] font-light text-[#28303b] leading-tight max-w-[420px] font-editorial">
-            The apogee of the modern metropolitan home
+            The apogee of the modern <br className="md:hidden inline"/> metropolitan home
           </h2>
           <p 
           className="mt-[24px] text-sm md:text-[18px] text-[#142A33] leading-relaxed  font-editorial"

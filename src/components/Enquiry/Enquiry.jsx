@@ -62,7 +62,7 @@ const EnquiryForm = () => {
                         required
                         className="mt-1 px-4 py-1 w-full h-[200px] border-b-2 border-[#142A33] bg-[#e8e4df] focus:outline-none focus:border focus:border-[#142A33]"
                     ></textarea>
-                    <button type="submit" className="mt-4 px-6 py-1 bg-[#e8e4df] text-[#142A33] font-light border-4 border-[#142A33] hover:border-black focus:border-black">
+                    <button type="submit" className="mt-4 px-6 py-1 bg-[#e8e4df] text-[#142A33] font-light border-2 border-[#142A33] hover:border-black focus:border-black text-center">
                         Submit
                     </button>
                 </div>

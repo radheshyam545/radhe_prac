@@ -83,22 +83,22 @@ const MobileFooter = () => {
             <div className="px-5  flex flex-col justify-between">
               {/* Address Section */}
               <div className="">
-                <h2 className="text-[24px] font-semibold mb-7 truncate">The address</h2>
-                <p className="text-gray-400 text-[16px]">9 Link Road,</p>
-                <p className="text-gray-400 mb-5">New Delhi 110014</p>
-                <p className="text-gray-400 hover:text-white mb-5">
+                <h2 className="text-[25px]  mb-7 truncate text-[#CCC9C2]">The address</h2>
+                <p className="text-[#CCC9C2] text-[16px]">9 Link Road,</p>
+                <p className="text-[#CCC9C2] mb-5">New Delhi 110014</p>
+                <p className="text-[#CCC9C2] hover:text-white mb-5">
                   <a
                     href="https://www.google.com/maps?gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MhEIARAuGAoYDRivARjHARiABDIPCAIQLhgNGK8BGMcBGIAEMgkIAxAAGA0YgAQyCAgEEAAYDRgeMggIBRAAGA0YHjIICAYQABgNGB4yCAgHEAAYDRgeMggICBAAGA0YHtIBCDQ3NjRqMGo3qAIAsAIA&um=1&ie=UTF-8&fb=1&gl=in&sa=X&geocode=KZm_dZwi4ww5MdUu8SUp3h0e&daddr=11,+Link+Rd,+Jangpura,+Block+P,+Jungpura+Extension,+New+Delhi,+Delhi+110014" target="_blank" rel="noopener noreferrer"
 
                   >View on a map</a>
                 </p>
-                <p className="text-gray-400">rejoice@biluxury.in</p>
-                <p className="text-gray-400">+91 98383 10282</p>
+                <p className="text-[#CCC9C2]">rejoice@biluxury.in</p>
+                <p className="text-[#CCC9C2]">+91 98383 10282</p>
               </div>
 
               {/* RERA Number */}
               <div className="mt-auto">
-                <p className="text-sm text-gray-400">RERA No: DLERA2020P0005</p>
+                <p className="text-sm text-[#CCC9C2]">RERA No: DLERA2020P0005</p>
               </div>
             </div>
           </div>
