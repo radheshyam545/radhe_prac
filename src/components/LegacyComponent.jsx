@@ -45,7 +45,7 @@ const LegacyComponent = () => {
        {/* Sidebar */}
       <div className={`fixed font-editorial right-0 top-[65px] w-[250px] h-full bg-white shadow-lg z-50 transition-transform transform ${isSidebarOpen ? "translate-x-0" : "translate-x-full"}`}>
         <div className="p-5">
-          <h2 className="font-bold text-sm md:text-[18px] leading-[24px]">Menu</h2>
+          <h2 className="font-bold text-sm md:text-[18px] leading-[24px] mb-2">Menu</h2>
           <ul className="divide-y divide-gray-300 text-sm md:text-[18px] text-[#142A33]">
             <li className="py-2">
             <a href={amenitiesPDF} target="_blank" rel="noopener noreferrer">
