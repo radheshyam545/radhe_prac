@@ -38,7 +38,7 @@ const ModernHome = () => {
             The apogee of the modern <br className="md:hidden inline"/> metropolitan home
           </h2>
           <p 
-          className="mt-[24px] text-sm md:text-[18px] text-[#142A33] leading-relaxed  font-editorial"
+          className="mt-[24px] text-[15px] md:text-[18px] text-[#142A33] leading-relaxed  font-editorial"
           // className="mt-4 text-sm md:text-base text-[#6a7579] leading-relaxed max-w-[300px] font-editorial"
           
           >

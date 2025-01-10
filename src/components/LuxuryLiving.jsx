@@ -16,7 +16,7 @@ const LuxurySense = () => {
             Luxury in its <br className="hidden md:inline"/> truest sense
           </h1>
           {/* <p className="text-[#5c5c5c] leading-relaxed text-[14px] w-full 2xl:w-[30%] xl:w-[40%] lg:w-[50%] md:w-[70%]  font-editorial"> */}
-          <p className="mt-[24px] text-[#142A33] leading-relaxed text-sm md:text-[18px] w-full   font-editorial">
+          <p className="mt-[24px] text-[#142A33] leading-relaxed text-[15px] md:text-[18px] w-full   font-editorial">
             Meticulously crafted details. The finest natural <br className="hidden md:inline"/> materials. The
             abundance of nature in an urban <br className="hidden md:inline"/> jungle. An antidote to the
             mass-produced. With an<br className="hidden md:inline"/>  uncompromising approach to design, The Oberoi<br className="hidden md:inline"/>
@@ -73,7 +73,7 @@ const LuxurySense = () => {
             An exemplar of <br className="hidden md:inline"/> effortless living
           </h1>
           {/* <p className="text-[#5c5c5c] leading-relaxed text-[14px] w-full 2xl:w-[30%] xl:w-[40%] lg:w-[50%] md:w-[70%] font-editorial"> */}
-          <p className="mt-[24px] text-[#142A33] leading-relaxed text-sm  md:text-[18px] w-full  font-editorial">
+          <p className="mt-[24px] text-[#142A33] leading-relaxed text-[15px]  md:text-[18px] w-full  font-editorial">
           {/* Cutting-edge home automation technology.   A */}
            {/* <br className="hidden md:inline"/> */}
            
