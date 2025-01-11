@@ -84,7 +84,7 @@ const TranscendCity = () => {
           <p
             // ref={textRef3}
               data-aos="fade-down"
-            className={`mt-[50px] text-[15px] md:text-[18px] leading-relaxed tracking-wide text-[#CCC9C2] font-editorial px-5 md:px-0 transition-all duration-1000 ease-out `}
+            className={`mt-[50px] text-[16px] md:text-[18px] leading-relaxed tracking-wide text-[#CCC9C2] font-editorial px-5 md:px-0 transition-all duration-1000 ease-out `}
           >
             V-shaped pilotis elevate the residences above a beautifully landscaped pedestrian realm, with an expansive Sky Lounge poised above the metropolis below. Here, as night falls, the lights of the Jawaharlal Nehru Stadium shimmer before you, the evening air a heady aperitif before dinner.
           </p>
@@ -92,7 +92,7 @@ const TranscendCity = () => {
           {/* Bottom Text with fade-in effect */}
           <p
           data-aos="fade-down"
-            className={`mt-8 text-[15px] md:text-[18px] md:px-0 font-light text-[#CCC9C2] font-editorial px-5 transition-all duration-1000 ease-out leading-relaxed tracking-wide `}
+            className={`mt-8 text-[16px] md:text-[18px] md:px-0 font-light text-[#CCC9C2] font-editorial px-5 transition-all duration-1000 ease-out leading-relaxed tracking-wide `}
           >
             Just beyond lie the timeless icons of the national capital. This is
             your vantage point. This is your domain.

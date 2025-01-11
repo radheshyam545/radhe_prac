@@ -83,7 +83,7 @@ const MobileFooter = () => {
             <div className="px-5  flex flex-col justify-between">
               {/* Address Section */}
               <div className="">
-                <h2 className="text-[25px]  mb-7 truncate text-[#CCC9C2]">The address :</h2>
+                <h2 className="text-[25px]  mb-7 truncate text-[#CCC9C2]">The address:</h2>
                 <p className="text-[#CCC9C2] text-[16px]">9 Link Road,</p>
                 <p className="text-[#CCC9C2] mb-5">New Delhi 110014</p>
                 <p className="text-[#CCC9C2] hover:text-white mb-5">

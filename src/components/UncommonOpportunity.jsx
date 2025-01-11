@@ -72,7 +72,7 @@ const UncommonOpportunity = () => {
         >
           Enquire
         </h3>
-        <p className="text-[#142A33]  leading-relaxed font-editorial  text-[15px] md:text-[18px] ">
+        <p className="text-[#142A33]  leading-relaxed font-editorial  text-[16px] md:text-[18px] ">
           Express your interest in a private viewing.
         </p>
       </div>

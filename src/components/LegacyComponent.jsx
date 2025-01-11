@@ -75,13 +75,13 @@ const LegacyComponent = () => {
           <span className="">your legacy</span> <br />
           evolve.
         </h1>
-        <p className="mt-8 text-[15px] md:text-[18px] text-[#142A33] leading-relaxed max-w-[500px] mx-auto font-editorial px-5">
+        <p className="mt-8 text-[16px] md:text-[18px] text-[#142A33] leading-relaxed max-w-[500px] mx-auto font-editorial px-5">
         When you bring together the best of both a luxury hotel and a home, in a habitat primed for self-expression, the feeling is liberating.
         </p>
-        <p className="mt-4 text-[15px] md:text-[18px] text-[#142A33] leading-relaxed max-w-[500px] mx-auto font-editorial px-5">
+        <p className="mt-4 text-[16px] md:text-[18px] text-[#142A33] leading-relaxed max-w-[500px] mx-auto font-editorial px-5">
         Freed from the freneticism of modern metropolitan life, you're at once soothed by the beauty and simplicity of good design and energised by the possibilities of an unhindered lifestyle. 
         </p>
-        <p className="mt-6 text-[15px] md:text-[18px] font-medium text-[#142A33] font-editorial px-5">
+        <p className="mt-6 text-[16px] md:text-[18px] font-medium text-[#142A33] font-editorial px-5">
           And so your next chapter begins...
         </p>
       </div>
