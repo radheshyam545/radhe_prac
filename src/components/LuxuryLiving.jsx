@@ -19,7 +19,7 @@ const LuxurySense = () => {
           <p className="mt-[24px] text-[#142A33] leading-relaxed text-[16px] md:text-[18px] w-full   font-editorial">
             Meticulously crafted details. The finest natural <br className="hidden md:inline"/> materials. The
             abundance of nature in an urban <br className="hidden md:inline"/> jungle. An antidote to the
-            mass-produced. With an<br className="hidden md:inline"/>  uncompromising approach to design, The Oberoi<br className="hidden md:inline"/>
+            mass-produced. With an<br className="hidden md:inline"/>  uncompromising approach to design, The Oberoi <br className="hidden md:inline"/>
              Group’s first and only residences are distinguished<br className="hidden md:inline"/>  above all by
             their rarity.
           </p>
