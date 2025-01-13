@@ -46,7 +46,7 @@ const ModernHome = () => {
             designed apartments at the <br className="hidden md:inline"/> heart of New Delhi, combining the
             comforts of  <br className="hidden md:inline"/>a luxury home with the privileges of instant  <br className="hidden md:inline"/>
             access to  world-class hotel services, in 
-            <br className="hidden md:inline"/>partnership with The Oberoi Group.
+             <br className="hidden md:inline"/> partnership with The Oberoi Group.
 
           
           </p>
