@@ -64,7 +64,7 @@ const TranscendCity = () => {
         {/* Main Heading with fade-in effect */}
         <h1
           // ref={textRef1}
-          className={`text-[60px] md:text-[110px] font-light text-[#CCC9C2] leading-tight tracking-wide font-saveya  px-5`}
+          className={`text-[50px] md:text-[110px] font-light text-[#CCC9C2] leading-tight tracking-wide font-saveya  px-5`}
           data-aos="fade-down"
        >
           Transcend
@@ -74,7 +74,7 @@ const TranscendCity = () => {
         <h2
           // ref={textRef2}
             data-aos="fade-down"
-          className={`text-[60px] md:text-[110px] font-light mt-2 text-[#CCC9C2] leading-snug font-saveya  transition-all duration-1000 ease-out`}
+          className={`text-[50px] md:text-[110px] font-light mt-2 text-[#CCC9C2] leading-snug font-saveya  transition-all duration-1000 ease-out`}
         >
           the city
         </h2>
