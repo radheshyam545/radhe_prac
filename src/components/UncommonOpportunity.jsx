@@ -39,7 +39,7 @@ const UncommonOpportunity = () => {
     
     >
       <h1 
-      className=" sm:text-[4rem] font-saveya text-[#162933]  leading-none  text-[60px] md:text-[110px] font-light"
+      className="sm:text-[4rem] font-saveya text-[#162933]  leading-none  text-[60px] md:text-[110px] font-light"
       data-aos="fade-down"
       >
 
@@ -52,12 +52,12 @@ const UncommonOpportunity = () => {
 
 
       </h1>
-      <h1 className="text-[60px] sm:text-[4rem] md:text-[110px] font-saveya text-[#162933] tracking-wide leading-none mt-[6px] md:mt-[18px] font-light mr-2.5"
+      <h1 className="text-[60px] sm:text-[4rem] md:text-[110px] font-saveya text-[#162933] tracking-wide leading-none mt-[6px] md:mt-[28px] font-light mr-[9px]"
       data-aos="fade-down"
       >
         <span className="block md:inline">smartest</span>
       </h1>
-      <h1 className="text-[60px] sm:text-[4rem] md:text-[110px] font-saveya text-[#162933] tracking-wide leading-none mb-4 md:mb-8 mt-[6px]  md:mt-[13px] font-light"
+      <h1 className="text-[60px] sm:text-[4rem] md:text-[110px] font-saveya text-[#162933] tracking-wide leading-none mb-4 md:mb-8 mt-[6px]  md:mt-[18px] font-light"
       data-aos="fade-down"
       >
         move
