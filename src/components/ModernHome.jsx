@@ -1,5 +1,5 @@
 import React from "react";
-import { luxury_card_image_1, second_banner, small_banner } from "../exportImages/export";
+import { luxury_cad_image_2, luxury_card_image_1, second_banner, small_banner } from "../exportImages/export";
 
 
 
@@ -17,7 +17,8 @@ const ModernHome = () => {
         className="relative w-full h-[400px] md:h-[500px] overflow-hidden"
         style={{
           // backgroundImage: `url(${second_banner})`,
-          backgroundImage: `url(${luxury_card_image_1})`,
+          // backgroundImage: `url(${luxury_card_image_1})`,
+          backgroundImage: `url(${luxury_cad_image_2})`,
           backgroundAttachment: 'fixed',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat',

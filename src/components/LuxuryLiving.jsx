@@ -32,8 +32,8 @@ const LuxurySense = () => {
         >
           
           <img
-            // src={luxury_card_image_1} // Image imported
-            src={second_banner} // Image imported
+            src={luxury_card_image_1} // Image imported
+            // src={second_banner} // Image imported
             alt="Luxury Interior"
             className="object-cover w-full  sm:w-[220px] md:w-[360px] h-[300px] md:h-[390px]   max-w-[385px]"
             // className=" object-cover w-full h-[180px] sm:w-[220px] sm:h-[220px] md:w-[340px] md:h-[300px]"
@@ -52,7 +52,8 @@ const LuxurySense = () => {
         data-aos="fade-left"
         >
           <img
-            src={luxury_cad_image_2} // Image imported
+            // src={luxury_cad_image_2} // Image imported
+            src={second_banner} // Image imported
             alt="Luxury Interior"
             className="object-cover w-full h-[300px] md:h-[390px] sm:w-[220px]  md:w-[360px] max-w-[385px]"
             // className="object-cover w-full h-[180px] sm:w-[220px] sm:h-[220px] md:w-[340px] md:h-[300px]"
