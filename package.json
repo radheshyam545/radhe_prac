@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://tridentresidences.com",
+  "homepage": "https://tridentresidences.com/new/dist/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -15,6 +15,7 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-icons": "^5.4.0",
+    "react-parallax": "^3.5.1",
     "react-scroll-parallax": "^3.4.5"
   },
   "devDependencies": {

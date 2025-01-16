@@ -1,5 +1,5 @@
 import React from "react";
-import { luxury_cad_image_2, luxury_card_image_1, second_banner, short_card_1, small_card_2 } from "../exportImages/export"; // Importing image
+import { luxury_cad_image_2, luxury_cad_image_3, luxury_cad_image_4, luxury_card_image_1, second_banner, short_card_1, small_card_2 } from "../exportImages/export"; // Importing image
 
 const LuxurySense = () => {
   return (
@@ -53,9 +53,11 @@ const LuxurySense = () => {
         >
           <img
             // src={luxury_cad_image_2} // Image imported
-            src={second_banner} // Image imported
+            // src={second_banner} // Image imported
+            src={luxury_cad_image_4} // Image imported
+            // src={luxury_cad_image_3} // Image imported
             alt="Luxury Interior"
-            className="object-cover w-full h-[300px] md:h-[390px] sm:w-[220px]  md:w-[360px] max-w-[385px]"
+            className="object-c w-full h-[300px] md:h-[390px] sm:w-[220px]  md:w-[360px] max-w-[385px]"
             // className="object-cover w-full h-[180px] sm:w-[220px] sm:h-[220px] md:w-[340px] md:h-[300px]"
             // className="zoom-image  object-cover w-full h-[180px] sm:w-[220px] sm:h-[220px] md:w-[340px] md:h-[300px]"
             // className="shadow-lg object-cover w-[180px] h-[180px] sm:w-[220px] sm:h-[220px] md:w-[300px] md:h-[300px]"
