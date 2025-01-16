@@ -1,5 +1,5 @@
 import React from "react";
-import { luxury_cad_image_2, luxury_card_image_1, second_banner, small_banner } from "../exportImages/export";
+import { luxury_cad_image_2, luxury_card_image_1, second_banner, small_banner, small_banner_2 } from "../exportImages/export";
 
 
 
@@ -11,9 +11,9 @@ const ModernHome = () => {
 
   return (
     // <div className="bg-[#e8e4df] relative h-[1000px]">
-    <div className=" relative h-[1000px]">
+    <div className="relative h-[1000px]">
       {/* Top Image with Parallax Effect */}
-      <div
+      {/* <div
         className="relative w-full h-[400px] md:h-[500px] overflow-hidden"
         style={{
           // backgroundImage: `url(${second_banner})`,
@@ -25,8 +25,14 @@ const ModernHome = () => {
           backgroundSize: 'cover',
         }}
       >
-        {/* Image tag removed since the background is now controlled via CSS for parallax effect */}
-      </div>
+      </div> */}
+
+
+        <div
+              className="h-[400px] md:h-[500px] w-full bg-cover bg-center bg-no-repeat  md:bg-fixed"
+              style={{ backgroundImage: `url(${luxury_cad_image_2})` }}
+            ></div>
+
 
       {/* Content Section */}
       <div className="relative flex flex-col md:flex-row h-auto md:h-[400px]  items-start">
@@ -59,7 +65,8 @@ const ModernHome = () => {
           {/* Bottom Image (Absolutely Positioned) */}
           <div className="absolute top-0 left-0 md:left-[5%] w-full max-w-[385px] md:w-[360px] h-[300px] md:h-[390px] z-10 md:top-[-40px] px-4 md:px-0 ">
             <img
-              src={small_banner}
+              // src={small_banner}
+              src={small_banner_2}
               alt="Modern Apartment Interior"
               className="w-full h-full object-cover shadow-lg"
             />
