@@ -9,7 +9,7 @@ import third_banner from "../assets/third_banner.jpg";
 import short_card_1 from "../assets/short_card_1.jpeg";
 // import bg_image from "../assets/bg_image.png";
 import bg_image from "../assets/bg_images/bg_image_2.png";
-import footer_logo from "../assets/footer_logo.png";
+import footer_logo from "../assets/footer_logo_2.png";
 import small_card_2 from "../assets/small_card_2.jpg";
 import luxury_card_image_1 from "../assets/luxury_card_image_1.jpeg";
 import luxury_cad_image_2 from "../assets/luxury_cad_image_2.jpeg";
