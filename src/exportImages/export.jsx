@@ -5,7 +5,7 @@ import small_banner from "../assets/small_banner.jpg";
 import small_banner_2 from "../assets/small_banner3.png";
 
 
-import third_banner from "../assets/third_banner.jpg";
+import third_banner from "../assets/third_banner_2.jpg";
 import short_card_1 from "../assets/short_card_1.jpeg";
 // import bg_image from "../assets/bg_image.png";
 import bg_image from "../assets/bg_images/bg_image_2.png";
