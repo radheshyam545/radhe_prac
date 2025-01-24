@@ -1,5 +1,5 @@
 import React from "react";
-import { luxury_cad_image_2, luxury_cad_image_3, luxury_cad_image_4, luxury_card_image_1, second_banner, short_card_1, small_card_2 } from "../exportImages/export"; // Importing image
+import { luxury_cad_image_2, luxury_cad_image_3, luxury_cad_image_4, luxury_card_image_1, luxury_card_image_5, second_banner, short_card_1, small_card_2 } from "../exportImages/export"; // Importing image
 
 const LuxurySense = () => {
   return (
@@ -31,7 +31,8 @@ const LuxurySense = () => {
         data-aos="fade-left"
         >
           <img
-            src={luxury_card_image_1} // Image imported
+            // src={luxury_card_image_1} // Image imported
+            src={luxury_card_image_5} // Image imported
             alt="Luxury Interior"
             className="object-cover w-full  sm:w-[220px] md:w-[360px] h-[300px] md:h-[390px] max-w-[385px]"
           />

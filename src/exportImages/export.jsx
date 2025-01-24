@@ -12,6 +12,7 @@ import bg_image from "../assets/bg_images/bg_image_2.png";
 import footer_logo from "../assets/footer_logo_2.png";
 import small_card_2 from "../assets/small_card_2.jpg";
 import luxury_card_image_1 from "../assets/luxury_card_image_3.jpg";
+import luxury_card_image_5 from "../assets/luxury_card_image_4.jpg";
 import luxury_cad_image_2 from "../assets/luxury_cad_image_2.jpeg";
 import luxury_cad_image_3 from "../assets/second_banner_2.jpg";
 import luxury_cad_image_4 from "../assets/second_banner_5.png";
@@ -36,4 +37,5 @@ export {
     luxury_cad_image_2,
     luxury_cad_image_3,
     luxury_cad_image_4,
+    luxury_card_image_5,
 }
