@@ -6,9 +6,13 @@ const CustomImageComponent = () => {
     <div>
       {/* Desktop View - Parallax effect */}
       <div
-        className="hidden md:block md:h-[500px] w-full bg-center bg-no-repeat 
-                   md:bg-cover md:bg-fixed " // Zoom-out for desktop
-        style={{ backgroundImage: `url(${third_banner})`,objectFit:"fill" }}
+         className="hidden md:block w-full h-[500px]  bg-center bg-no-repeat bg-fixed"
+         style={{
+           backgroundImage: `url(${third_banner})`,
+           backgroundSize: '100% 100%',  // Stretches image to cover the full width and height
+           backgroundPosition: 'center', // Centers the image
+           backgroundRepeat: 'no-repeat', // Avoids tiling
+         }}
       ></div>
 
       {/* Mobile View - Normal Image */}
