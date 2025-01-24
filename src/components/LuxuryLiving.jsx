@@ -30,15 +30,10 @@ const LuxurySense = () => {
         className="w-full md:w-[50%] flex justify-start   md:px-2.5 px-5 py-3 md:py-0"
         data-aos="fade-left"
         >
-          
           <img
             src={luxury_card_image_1} // Image imported
-            // src={second_banner} // Image imported
             alt="Luxury Interior"
-            className="object-cover w-full  sm:w-[220px] md:w-[360px] h-[300px] md:h-[390px]   max-w-[385px]"
-            // className=" object-cover w-full h-[180px] sm:w-[220px] sm:h-[220px] md:w-[340px] md:h-[300px]"
-            // className="zoom-image object-cover w-full h-[180px] sm:w-[220px] sm:h-[220px] md:w-[340px] md:h-[300px]"
-            // className="shadow-lg object-cover w-[180px] h-[180px] sm:w-[220px] sm:h-[220px] md:w-[300px] md:h-[300px]"
+            className="object-cover w-full  sm:w-[220px] md:w-[360px] h-[300px] md:h-[390px] max-w-[385px]"
           />
         </div>
       </div>
