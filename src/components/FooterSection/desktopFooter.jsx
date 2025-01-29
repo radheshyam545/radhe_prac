@@ -62,7 +62,7 @@ const DeskTopFooter = () => {
                         <div className="px-5  flex flex-col justify-between">
                             {/* Address Section */}
                             <div className="">
-                                <h2 className="text-[25px] mb-7 truncate">The address:</h2>
+                                <h2 className="text-[25px] mb-7 truncate text-[#CCC9C2]">The address:</h2>
                             </div>
                             <div className="mt-auto">
                                 <p className="text-[#CCC9C2] text-[16px]">9 Link Road,</p>
