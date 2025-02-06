@@ -108,7 +108,7 @@ const MobileFooter = () => {
 
           {/* Right Column */}
           <div className="w-[50%] relative ">
-            <div className="pr-4  h-[59%] flex items-end justify-end">
+            <div className="pr-4  h-[45%] flex items-end justify-end">
               <img src={TheOberoiGroup_Footer_Logo} alt="" className="h-[40px] w-auto" />
             </div>
 
@@ -116,7 +116,7 @@ const MobileFooter = () => {
               <img
                 src={footer_logo}
                 alt=""
-                className="absolute bottom-0 right-0 md:right-[54px] w-[150px] h-[150px]  md:w-[190px] md:h-[190px] object-contain"
+                className="absolute bottom-0 right-4 md:right-[54px] w-[150px] h-[150px]  md:w-[190px] md:h-[190px] object-contain"
               />
             </a>
           </div>
