@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { amenitiesPDF, bg_image, footer_logo } from "../../exportImages/export";
+import { amenitiesPDF, bg_image, footer_logo, Press_Residence_PDF, TheOberoiGroup_Footer_Logo } from "../../exportImages/export";
 import AddressCard from "./AddressCard";
 
 const MobileFooter = () => {
@@ -43,11 +43,11 @@ const MobileFooter = () => {
   return (
     <div
       className=" text-[#D1D5DB] h-[560px] w-full  bg-no-repeat "
-      
+
       style={{
         backgroundImage: `url(${bg_image})`,
-          backgroundPosition: "left -70px bottom",
-          backgroundSize: "100%"
+        backgroundPosition: "left -70px bottom",
+        backgroundSize: "100%"
       }}
     >
       <div className="">
@@ -57,14 +57,17 @@ const MobileFooter = () => {
           <div className="flex  justify-between text-[#CCC9C2] w-full pr-4">
             <p className="text-[25px] hover:text-gray-300 cursor-pointer">
               <a href={amenitiesPDF} target="_blank" rel="noopener noreferrer">
-              Amenities
+                Amenities
               </a>
-              
+
             </p>
             <p className="text-[25px] hover:text-gray-300 cursor-pointer">
-            <span>
+              <a
+                href={Press_Residence_PDF}
+                target="_blank" rel="noopener noreferrer"
+              >
                 Press
-              </span>
+              </a>
             </p>
             <p className="text-[25px] hover:text-gray-300 cursor-pointer">
               <a
@@ -105,13 +108,17 @@ const MobileFooter = () => {
 
           {/* Right Column */}
           <div className="w-[50%] relative ">
-          <a href="https://bipgroup.com/" target="_blank" rel="noopener noreferrer">
-            <img
-              src={footer_logo}
-              alt=""
-              className="absolute bottom-0 right-0 md:right-[54px] w-[150px] h-[150px]  md:w-[190px] md:h-[190px] object-contain"
-            />
-             </a>
+            <div className="pr-4  h-[59%] flex items-end justify-end">
+              <img src={TheOberoiGroup_Footer_Logo} alt="" className="h-[40px] w-auto" />
+            </div>
+
+            <a href="https://bipgroup.com/" target="_blank" rel="noopener noreferrer">
+              <img
+                src={footer_logo}
+                alt=""
+                className="absolute bottom-0 right-0 md:right-[54px] w-[150px] h-[150px]  md:w-[190px] md:h-[190px] object-contain"
+              />
+            </a>
           </div>
         </div>
         <div className="h-[90px] ">

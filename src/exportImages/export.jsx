@@ -18,10 +18,15 @@ import luxury_cad_image_3 from "../assets/second_banner_2.jpg";
 import luxury_cad_image_4 from "../assets/second_banner_5.png";
 
 
+// import TheOberoiGroup_Footer_Logo from "../assets/footerLogo/TheOberoiGroup.png";
+import TheOberoiGroup_Footer_Logo from "../assets/footerLogo/TheOberoiGroup_white.png";
+
+
 
 
 // import amenitiesPDF from "../assets/TRIDENT_RESIDENCES_Amenities_page.pdf"
-import amenitiesPDF from "../assets/ammineties/Trident_Residences_Amminities_2.pdf"
+import amenitiesPDF from "../assets/ammineties/Trident_Residences_Amminities_2.pdf";
+import Press_Residence_PDF from "../assets/Press/Press_Residence.pdf";
 export {
     main_logo,
     second_banner,
@@ -33,9 +38,11 @@ export {
     footer_logo,
     small_card_2,
     amenitiesPDF,
+    Press_Residence_PDF,
     luxury_card_image_1,
     luxury_cad_image_2,
     luxury_cad_image_3,
     luxury_cad_image_4,
     luxury_card_image_5,
+    TheOberoiGroup_Footer_Logo,
 }

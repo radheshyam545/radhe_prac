@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { amenitiesPDF, bg_image, footer_logo } from "../../exportImages/export";
+import { amenitiesPDF, bg_image, footer_logo, Press_Residence_PDF, TheOberoiGroup_Footer_Logo } from "../../exportImages/export";
 import AddressCard from "./AddressCard";
 
 const DeskTopFooter = () => {
@@ -98,9 +98,11 @@ const DeskTopFooter = () => {
 
                         </p>
                         <p className="text-[25px] hover:text-gray-300 cursor-pointer">
-                            <span>
+                            <a
+                                href={Press_Residence_PDF} target="_blank" rel="noopener noreferrer"
+                            >
                                 Press
-                            </span>
+                            </a>
                         </p>
                         <p className="text-[25px] hover:text-gray-300 cursor-pointer">
                             <a
@@ -111,7 +113,12 @@ const DeskTopFooter = () => {
                         </p>
                     </div>
                     {/* Right Column */}
-                    <div className="pr-10">
+                    <div className="pr-10  w-full flex justify-between">
+
+                        <div className="flex items-end justify-end h-full  w-[58%] pl-10">
+                            <img src={TheOberoiGroup_Footer_Logo} alt="" className="h-[60px] w-auto" />
+                        </div>
+
                         <a href="https://bipgroup.com/" target="_blank" rel="noopener noreferrer">
                             <div className="w-[170px] h-[210px]  overflow-hidden">
                                 <img

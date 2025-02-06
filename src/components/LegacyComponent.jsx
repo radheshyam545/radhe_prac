@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { amenitiesPDF, main_logo } from "../exportImages/export";
+import { amenitiesPDF, main_logo, Press_Residence_PDF } from "../exportImages/export";
 import { RxCross1 } from 'react-icons/rx';  // Import RxCross1 icon
 // import amenitiesPDF from "../assets/TRIDENT_RESIDENCES_Amenities_page.pdf"
 
@@ -53,7 +53,7 @@ const LegacyComponent = () => {
               </a>
             </li>
             <li className="py-2">
-            <a href="#" rel="noopener noreferrer">
+            <a href={Press_Residence_PDF} target="_blank" rel="noopener noreferrer">
                 Press
               </a>
             </li>
