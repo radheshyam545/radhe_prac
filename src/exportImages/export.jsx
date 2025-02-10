@@ -26,7 +26,7 @@ import TheOberoiGroup_Footer_Logo from "../assets/footerLogo/TheOberoiGroup_whit
 
 // import amenitiesPDF from "../assets/TRIDENT_RESIDENCES_Amenities_page.pdf"
 import amenitiesPDF from "../assets/ammineties/Trident_Residences_Amminities_2.pdf";
-import Press_Residence_PDF from "../assets/Press/Press_Residence.pdf";
+import Press_Residence_PDF from "../assets/Press/Press_Residence_2.pdf";
 export {
     main_logo,
     second_banner,
