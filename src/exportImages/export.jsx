@@ -27,6 +27,8 @@ import TheOberoiGroup_Footer_Logo from "../assets/footerLogo/TheOberoiGroup_whit
 // import amenitiesPDF from "../assets/TRIDENT_RESIDENCES_Amenities_page.pdf"
 import amenitiesPDF from "../assets/ammineties/Trident_Residences_Amminities_2.pdf";
 import Press_Residence_PDF from "../assets/Press/Press_Residence_2.pdf";
+import Trident_Privacy_PDF from "../assets/privacy/Trident_Privacy.pdf";
+
 export {
     main_logo,
     second_banner,
@@ -39,6 +41,7 @@ export {
     small_card_2,
     amenitiesPDF,
     Press_Residence_PDF,
+    Trident_Privacy_PDF,
     luxury_card_image_1,
     luxury_cad_image_2,
     luxury_cad_image_3,

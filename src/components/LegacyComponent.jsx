@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { amenitiesPDF, main_logo, Press_Residence_PDF } from "../exportImages/export";
+import { amenitiesPDF, main_logo, Press_Residence_PDF, Trident_Privacy_PDF } from "../exportImages/export";
 import { RxCross1 } from 'react-icons/rx';  // Import RxCross1 icon
 // import amenitiesPDF from "../assets/TRIDENT_RESIDENCES_Amenities_page.pdf"
 
@@ -58,7 +58,7 @@ const LegacyComponent = () => {
               </a>
             </li>
             <li className="py-2">
-            <a href="https://tridentresidences.com/wp-content/uploads/2024/04/Trident-Residences-Privacy-Policy.pdf" target="_blank" rel="noopener noreferrer">
+            <a href={Trident_Privacy_PDF} target="_blank" rel="noopener noreferrer">
                 Privacy
               </a>
             </li>

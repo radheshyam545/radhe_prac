@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { amenitiesPDF, bg_image, footer_logo, Press_Residence_PDF, TheOberoiGroup_Footer_Logo } from "../../exportImages/export";
+import { amenitiesPDF, bg_image, footer_logo, Press_Residence_PDF, TheOberoiGroup_Footer_Logo, Trident_Privacy_PDF } from "../../exportImages/export";
 import AddressCard from "./AddressCard";
 
 const MobileFooter = () => {
@@ -71,7 +71,7 @@ const MobileFooter = () => {
             </p>
             <p className="text-[25px] hover:text-gray-300 cursor-pointer">
               <a
-                href="https://tridentresidences.com/wp-content/uploads/2024/04/Trident-Residences-Privacy-Policy.pdf" target="_blank" rel="noopener noreferrer"
+                href={Trident_Privacy_PDF} target="_blank" rel="noopener noreferrer"
               >
                 Privacy
               </a>
